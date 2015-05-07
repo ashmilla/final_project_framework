@@ -1,9 +1,11 @@
 /* Globals.scss */
 
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,800|Wire+One);
+
 @mixin body-font {
-    font-family: "adobe-garamond-pro", "georgia", serif;
+    font-family: 'Wire One' , sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 @mixin body-font-italic {
@@ -19,7 +21,7 @@
 }
 
 @mixin headline-font {
-    font-family: "league-gothic", "verdana", sans-serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
 }

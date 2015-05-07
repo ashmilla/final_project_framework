@@ -3,6 +3,8 @@
 img {
     max-width: 100%;
     vertical-align: bottom;
+    margin-bottom: 1;
+    margin-top: 1;
 }
 
 body {
@@ -12,7 +14,7 @@ body {
 .headline, h1, h2, h3, h4 {
     @include headline-font;
     line-height: 1;
-    margin: 0;
+    margin: 1;
 }
 
 b, strong {
